@@ -1,0 +1,25 @@
+{
+	"name": "Dataset_1",
+	"properties": {
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://data@az303prepbharatkhanna.dfs.core.windows.net/",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "az303_ADLS_LS"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "6e737f71-f8d7-4d92-ab2c-e433dc088411",
+		"Name": "Dataset_1",
+		"EntityType": "DATABASE"
+	},
+	"type": "DATABASE"
+}
